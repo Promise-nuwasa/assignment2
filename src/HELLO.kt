@@ -9,12 +9,4 @@ var studentName=("Nuwasasira Promise")
     println (weight)
     var citizen=("false")
     println (citizen)
-
-
-
-
-
-
-
-
 }
