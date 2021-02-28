@@ -1,34 +1,24 @@
-import kotlin.system.exitProcess
-
-fun main(){
-   promise()
-    division()
-    add()
-    about()
-
-
-}
-fun promise(){
-    var name="Hello promise"
-     println(name)
-}
-
-
-fun division(){
-var num1 =25
-var num2 =4
-var modulus =num1%num2
-println(modulus)
-}
-fun add(){
-    var num1=10
-    var num2=20
-    var num3=30
-    var num4=40
-    var sum=num1+num2+num3+num4
+fun main() {
+    name()
+    var mod =modulus(25,2)
+    println(mod)
+    var sum =addition(10,20,30,40)
     println(sum)
+    about()
 }
-fun about() {
-    var myself =("am smart")
-    println(myself)
+fun name(){
+    var name = ("Hello Promise")
+    println(name)
+}
+fun modulus(x:Int,y:Int):Int{
+    var mod =x%y
+    return (mod)
+}
+fun addition(a:Int,b:Int,c:Int,d:Int):Int{
+    var sum = a+b+c+d
+    return (sum)
+}
+fun about(){
+    var about =("am smart")
+    println(about)
 }
